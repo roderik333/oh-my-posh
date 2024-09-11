@@ -81,6 +81,10 @@
           "background": "#306998",
           "leading_diamond": "\ue0b6",
           "trailing_diamond": "\ue0b4 ",
+          "properties": {
+            "display_mode": "context",
+            "fetch_virtual_env": true
+          },
           "template": "\ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }}"
         },
         {
